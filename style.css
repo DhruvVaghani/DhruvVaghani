@@ -251,3 +251,11 @@ body {
   font-size: 0.8rem !important;
   line-height: 1.45;
 }
+.card-link {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}

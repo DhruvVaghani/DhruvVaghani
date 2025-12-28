@@ -32,8 +32,9 @@ body {
 }
 
 .about img {
-  width: 380px;
-  border-radius: 16px;
+  width: 380px;        /* increase from current value */
+  height: auto;
+  border-radius: 18px;
 }
 
 .card-grid {

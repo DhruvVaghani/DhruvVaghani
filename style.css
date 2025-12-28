@@ -262,6 +262,5 @@ body {
 
 /* Compact certification cards */
 #certifications .card {
-  padding: 0.85rem 1.2rem;   /* reduced from default */
-  min-height: auto;
+  padding: 0.85rem 1.1rem;
 }

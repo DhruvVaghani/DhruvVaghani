@@ -246,7 +246,7 @@ body {
 } */
 
 /* Project card description text */
-.project-card p {
-  font-size: 0.7rem !important;    /* slightly smaller than default */ 
-  color: #374151;        /* subtle dark gray */
+.card.project-card p {
+  font-size: 0.8rem !important;
+  line-height: 1.45;
 }

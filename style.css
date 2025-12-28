@@ -261,6 +261,15 @@ body {
 }
 
 /* Compact certification cards */
+/* Compact certification cards – FINAL FIX */
 #certifications .card {
-  padding: 0.85rem 1.1rem;
+  padding: 0.9rem 1.1rem;
 }
+
+/* Reduce heading margins inside certification cards */
+#certifications .card h3 {
+  margin: 0;
+  font-size: 0.95rem;   /* optional: keeps it compact */
+  line-height: 1.3;
+}
+

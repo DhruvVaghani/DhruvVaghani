@@ -27,7 +27,7 @@ body {
 
 .about {
   display: flex;
-  gap: 3rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -79,7 +79,7 @@ body {
   width: 10px;
   height: 10px;
   background: #2563eb;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .timeline-card {
@@ -101,7 +101,7 @@ body {
 
 .experience-card {
   background: #fff;
-  padding: 2.5rem;
+  padding: 1.5rem;
   border-radius: 18px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.08);
   max-width: 900px;
@@ -131,7 +131,7 @@ body {
 }
 
 .divider {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .timeline {
@@ -157,7 +157,7 @@ body {
   width: 10px;
   height: 10px;
   background: #2563eb;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .timeline-content h4 {

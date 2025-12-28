@@ -183,3 +183,18 @@ body {
   border-radius: 12px;
   display: inline-block;
 }
+/* Hackathon links */
+.card-link {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.tools {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.75rem;
+}

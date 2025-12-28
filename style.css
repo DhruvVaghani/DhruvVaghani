@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f7f4ec;
+  color: #222;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.section {
+  padding: 4rem 8%;
+}
+
+.about {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about img {
+  width: 280px;
+  border-radius: 16px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TIMELINE */
+.timeline {
+  position: relative;
+  margin-left: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #ddd;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 40px;
+}
+
+.dot {
+  position: absolute;
+  left: -9px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+.timeline-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.timeline-card span {
+  font-size: 0.9rem;
+  color: #666;
+}

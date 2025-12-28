@@ -32,7 +32,7 @@ body {
 }
 
 .about img {
-  width: 480px;        /* increase from current value */
+  width: 400px;        /* increase from current value */
   height: auto;
   border-radius: 18px;
 }

@@ -245,3 +245,9 @@ body {
   display: block;
 } */
 
+/* Project card description text */
+.project-card p {
+  font-size: 0.9rem;      /* slightly smaller than default */
+  line-height: 1.55;     /* keeps it readable */
+  color: #374151;        /* subtle dark gray */
+}

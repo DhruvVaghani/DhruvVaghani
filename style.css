@@ -198,3 +198,38 @@ body {
   color: #555;
   margin-top: 0.75rem;
 }
+
+/* ================================
+   PROJECT FILTERS
+   ================================ */
+
+.project-filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.filter-btn.active {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+.projects-grid {
+  margin-top: 1rem;
+}
+
+/* Hide cards when filtered */
+.project-card {
+  display: block;
+}
+

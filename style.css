@@ -22,7 +22,7 @@ body {
 }
 
 .section {
-  padding: 1.5rem 8%;
+  padding: 1.5rem 6%;
 }
 
 .about {
@@ -49,6 +49,8 @@ body {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  min-width: 0;
 }
 
 /* TIMELINE */
@@ -312,5 +314,11 @@ body {
   .card-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.projects-grid.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
 }
 

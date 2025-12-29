@@ -322,3 +322,9 @@ body {
   gap: 1.5rem;
 }
 
+/* Center projects content like reference */
+.projects-grid {
+  max-width: 1200px;   /* controls content width */
+  margin: 0 auto;      /* centers the grid */
+}
+

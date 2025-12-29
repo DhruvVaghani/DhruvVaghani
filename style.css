@@ -1,12 +1,8 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: #fafafa;
-  color: #111827;
-  /* background: #f0f4f8;  /* blue-gray */
-  /* color: #1e293b; */ */
-  /* background: #f5f7fa;  /* light neutral gray */
-  /* color: #1f2937;  */ */
+  background: #f0f4f8;  /* blue-gray */
+  color: #1e293b;
   /* background: #f7f4ec;
   color: #222; */
 }

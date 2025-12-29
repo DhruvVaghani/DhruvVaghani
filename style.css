@@ -39,9 +39,10 @@ body {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* EXACTLY 4 per row */
   gap: 1.5rem;
 }
+
 
 .card {
   background: #fff;
@@ -251,6 +252,11 @@ body {
   font-size: 0.8rem !important;
   line-height: 1.45;
 }
+
+.card.project-card {
+  padding: 1.6rem;
+}
+
 .card-link {
   color: #1d4ed8;
   text-decoration: none;
@@ -286,3 +292,25 @@ body {
   font-size: 0.9rem;
   color: #4b5563;
 }
+
+/* Large tablets / small laptops */
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

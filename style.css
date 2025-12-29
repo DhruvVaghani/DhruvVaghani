@@ -324,7 +324,7 @@ body {
 
 /* Center projects content like reference */
 .projects-grid {
-  max-width: 1200px;   /* controls content width */
+  max-width: 1400px;   /* controls content width */
   margin: 0 auto;      /* centers the grid */
 }
 

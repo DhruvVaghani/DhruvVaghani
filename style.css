@@ -273,3 +273,16 @@ body {
   line-height: 1.3;
 }
 
+/* Compact case study cards */
+#case-studies .card {
+  padding: 1.1rem 1.4rem;
+}
+
+#case-studies .card h3 {
+  margin-bottom: 0.4rem;
+}
+
+#case-studies .card p {
+  font-size: 0.9rem;
+  color: #4b5563;
+}

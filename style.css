@@ -1,8 +1,10 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: #f7f4ec;
-  color: #222;
+  background: #f5f7fa;  /* light neutral gray */
+  color: #1f2937; 
+  /* background: #f7f4ec;
+  color: #222; */
 }
 
 .navbar {

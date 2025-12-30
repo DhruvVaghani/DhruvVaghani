@@ -22,6 +22,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+  padding-right: 3rem;
 }
 
 .nav-right {

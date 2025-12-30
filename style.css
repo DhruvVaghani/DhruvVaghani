@@ -50,17 +50,7 @@ body {
 .navbar a:hover {
   color: #bfdbfe;
 }
-.btn-primary {
-  background: #2563eb;
-  color: #ffffff;
-  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
-}
 
-.btn-primary:hover {
-  background: #1d4ed8;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.6);
-}
 
 /* ================================
    SECTIONS

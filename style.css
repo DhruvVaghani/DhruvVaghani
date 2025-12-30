@@ -256,6 +256,12 @@ a:hover {
 #certifications .card {
   padding: 0.9rem 1.1rem;
 }
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
 
 #certifications .card h3 {
   margin: 0;

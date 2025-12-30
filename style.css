@@ -22,13 +22,14 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding-right: 3rem;
+  
 }
 
 .nav-right {
   display: flex;
   align-items: center;
   gap: 1.25rem;
+  padding-right: 3rem;
   flex-wrap: nowrap;
 }
 

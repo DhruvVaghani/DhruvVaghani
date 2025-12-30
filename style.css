@@ -189,6 +189,16 @@ a:hover {
   color: #93c5fd;
   text-decoration: underline;
 }
+/* Make full card clickable */
+.card-link-wrapper {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link-wrapper:hover {
+  text-decoration: none;
+}
 
 /* ================================
    PROJECT FILTERS

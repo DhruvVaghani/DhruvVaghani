@@ -486,7 +486,7 @@ a:hover {
   font-weight: 500;
   font-size: 0.9rem;
   text-decoration: none;
-  width:650px
+  width:650px;
   transition: all 0.25s ease;
 }
 
